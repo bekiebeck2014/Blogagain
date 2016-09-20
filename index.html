@@ -1,19 +1,18 @@
-﻿﻿---
+﻿---
 layout: default
-title: My Blog
+title: Blog index
 ---
 
-<h2>{{ page.title }}</h2>
+<h1>Blog index</h1>
+<div class="home">
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li>
+        <span>{{ post.date | date: "%b %-d, %Y" }}</span>:
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
 
-<p>The latest articles</p>
-
-<ul>
-
-  {% for post in site.posts %}
-
-    <li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-
-  {% endfor %}
-
-</ul>
-
+  <p class="rss-subscribe">subscribe <a href="{{ "atom.xml" | prepend: site.baseurl }}">via Atom</a></p>
+</div>
