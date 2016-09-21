@@ -5,13 +5,13 @@ title: setup my github blog
 
 {{page.title}}
 
-{{page.date | date_to_string }}
+<p>{{page.date | date_to_string }}</p>
 
-======
 
 1.My local posts directory:
 
-C:\e\github\_posts 
+C:\e\github\_posts
+
 
 2.My blog URL:
 
@@ -62,3 +62,6 @@ git config
 
 when define _config.yml, baseurl should be your repo name in github:
 baseurl: /Blogagain
+
+
+
