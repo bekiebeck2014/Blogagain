@@ -1,12 +1,12 @@
-﻿---
+---
 layout: default
-title: setup my github blog summary
+title: setup my github blog
 ---
 
-<h2>{{ page.title }}</h2>
-<p>{{ page.date | date_to_string }}</p>
+{{page.title}}
+{{page.date | date_to_string }}
 
-
+======
 1.My local posts directory:
 
 C:\e\github\_posts
@@ -61,6 +61,3 @@ git config
 
 when define _config.yml, baseurl should be your repo name in github:
 baseurl: /Blogagain
-
-
-
