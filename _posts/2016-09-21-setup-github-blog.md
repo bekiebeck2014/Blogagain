@@ -4,13 +4,14 @@ title: setup my github blog
 ---
 
 {{page.title}}
+
 {{page.date | date_to_string }}
 
 ======
+
 1.My local posts directory:
 
-C:\e\github\_posts
-
+C:\e\github\_posts 
 
 2.My blog URL:
 
