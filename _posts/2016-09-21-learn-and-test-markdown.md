@@ -67,4 +67,4 @@ when define _config.yml, baseurl should be your repo name in github:
 baseurl: /Blogagain
 
 
-![it is a pic here](/images/markdown.jpg)
+![it is a pic here](https://raw.githubusercontent.com/bekiebeck2014/Blogagain/gh-pages/images/markdown.jpg)
