@@ -28,7 +28,7 @@ git push mine3 gh-pages
 
 4.**Git CMDs:**
 
-`git init
+git init
 
 git clone https://github.com/bekiebeck2014/Blog
 
@@ -56,7 +56,9 @@ git config --global user.name "John Doe"
 
 git config --global user.email johndoe@example.com 
 
-git config`
+git config
+
+`it is a test here`
 
 
 5.**jekyll notes:**
@@ -65,4 +67,4 @@ when define _config.yml, baseurl should be your repo name in github:
 baseurl: /Blogagain
 
 
-![it is a pic here](/images/markdown.jpg)
+![it is a pic here](Blogagain/images/markdown.jpg)
