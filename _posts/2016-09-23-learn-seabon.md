@@ -1,10 +1,11 @@
 # learn seaborn
 
-https://stanford.edu/~mwaskom/software/seaborn/tutorial/distributions.html
+1. [](https://stanford.edu/~mwaskom/software/seaborn/tutorial/distributions.html)
 
-https://stanford.edu/~mwaskom/software/seaborn/tutorial/regression.html
+2. [](https://stanford.edu/~mwaskom/software/seaborn/tutorial/regression.html)
 
-https://stanford.edu/~mwaskom/software/seaborn/tutorial/categorical.html
+3. [](https://stanford.edu/~mwaskom/software/seaborn/tutorial/categorical.html)
+
 
 
 
