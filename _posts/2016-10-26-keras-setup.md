@@ -1,10 +1,10 @@
-1. env:  
+1. Env:  
 
 windows 7  
 
 Anaconda3-4.2.0-Windows-x86_64.exe  
 
-2. set up:  
+2. Set up:  
 
 2.1 install Anaconda3-4.2.0  
 
@@ -22,7 +22,12 @@ pip install git+https://github.com/fchollet/keras.git
 
 pip install nose_parameterized  
 
+
+
    
+
+
+
     
 
    
